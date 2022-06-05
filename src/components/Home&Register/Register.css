@@ -1,0 +1,46 @@
+.reg-contain h2 {
+    text-align: center;
+    color:rgb(75, 75, 75);
+}
+
+#register label {
+    display: block;
+}
+  
+#register input{
+    width: 200px;
+    height: 20px;
+    border: 2.5px black solid;
+    border-radius: 3px;
+    margin-top: 0.5rem;
+}
+
+#register button{
+    transition: all 0.5s;
+    width: 210px;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    height: 30px;
+    color: white;
+    background-image: linear-gradient(to right, #212529, gray);
+    cursor:pointer;
+    background-repeat: no-repeat;
+    
+}
+
+#register button:hover {
+    transition:all 0.8s;
+    filter:brightness(1.5);
+    
+}
+
+.reg-contain p {
+    text-align: center;
+    color:rgb(75, 75, 75);
+}
+
+
+#register-link:hover{
+    cursor:pointer;
+    color: blue;
+}
