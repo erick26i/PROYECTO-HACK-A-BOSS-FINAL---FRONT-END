@@ -1,10 +1,14 @@
+:root {
+  --close-bg-color: rgb(231, 227, 227);
+}
+
 .modal-bg {
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(92, 94, 95, 0.75);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,12 +16,24 @@
 
 .modal-fg {
   background-color: rgb(255, 255, 255);
-  padding: 20px;
+  padding: 3rem;
 }
 
-.modal-fg>p{
-  cursor:pointer;
-  text-align: right;
-  margin:0;
+.close {
+  font-weight: 900;
+}
 
+.modal-fg > p {
+  cursor: pointer;
+  text-align: right;
+  text-align: right;
+  margin: 0;
+}
+svg {
+  padding: 10px;
+}
+svg:hover {
+  background-color: var(--close-bg-color);
+  padding: 10px;
+  border-radius: 15%;
 }
