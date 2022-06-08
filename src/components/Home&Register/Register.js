@@ -36,6 +36,7 @@ function Register() {
       if (!res.ok) throw new Error(res.statusText);
       const data = await res.json();
       setStatus('success');
+      setModal(null);
       setToken(data.data);
     } catch (e) {
       console.warn(e);

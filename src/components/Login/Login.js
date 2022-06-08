@@ -27,13 +27,14 @@ function Login() {
       setToken(data.data);
       localStorage.setItem('user', JSON.stringify(username));
       setStatus('success');
+      setModal(null);
     } catch (e) {
       // console.warm(e);
       setStatus('error');
     }
   };
   if (token) {
-    return setModal(null)(<Navigate to='/' />);
+    return <Navigate to='/' />;
   }
 
   return (
