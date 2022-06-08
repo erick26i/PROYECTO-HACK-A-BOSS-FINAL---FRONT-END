@@ -33,8 +33,9 @@ function Login() {
     }
   };
   if (token) {
-    return setModal(null), (<Navigate to='/' />);
+    return setModal(null)(<Navigate to='/' />);
   }
+
   return (
     <aside className='log-contain'>
       <h2>Login</h2>

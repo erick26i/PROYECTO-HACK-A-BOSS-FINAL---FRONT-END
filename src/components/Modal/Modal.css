@@ -1,5 +1,5 @@
 :root {
-  --close-bg-color: rgb(231, 227, 227);
+  --close-bg-color: rgb(150, 3, 3);
 }
 
 .modal-bg {
@@ -30,10 +30,11 @@
   margin: 0;
 }
 svg {
-  padding: 10px;
+  padding: 8px;
 }
 svg:hover {
   background-color: var(--close-bg-color);
-  padding: 10px;
+  color: white;
+  padding: 8px;
   border-radius: 15%;
 }

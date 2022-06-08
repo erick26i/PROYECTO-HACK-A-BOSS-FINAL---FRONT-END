@@ -7,6 +7,20 @@
   --login-link: rgb(42, 172, 10);
 }
 
+.label {
+  font-size: 0.7rem;
+  display: flex;
+  margin-top: 0.5rem;
+  justify-content: flex-start;
+  font-weight: 600;
+  color: var(--input);
+}
+
+.complete-register {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
 .reg-contain {
   display: flex;
   flex-direction: column;
@@ -49,22 +63,6 @@
   border: 0.8px solid var(--input-hoover);
 }
 
-/* #register button {
-  transition: all 0.5s;
-  width: 210px;
-  border-radius: 5px;
-  margin-top: 0.5rem;
-  height: 30px;
-  color: var(--btn-color);
-
-  cursor: pointer;
-}
-
-#register button:hover {
-  transition: all 0.8s;
-  filter: brightness(1.5);
-} */
-
 .btn {
   margin-top: 0.5rem;
   padding: 0em 1.8em;
@@ -79,6 +77,7 @@
   z-index: 1;
   font-family: inherit;
   color: var(--btn-color);
+  cursor: pointer;
 }
 
 .btn::before {

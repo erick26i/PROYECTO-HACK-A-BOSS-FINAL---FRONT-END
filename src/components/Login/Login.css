@@ -46,23 +46,6 @@ h2 {
   margin-top: 0.5rem;
 }
 
-/* #login button{
-  transition: all 0.5s;
-    width: 210px;
-    border-radius: 5px;
-    margin-top: 0.5rem;
-    height: 30px;
-    color: white;
-    background-image: linear-gradient(to right, gray, #212529);
-    cursor:pointer;
-    background-repeat: no-repeat;
-}
-
-#login button:hover {
-  filter:brightness(1.5);
-  transition: 0.5s;
-} */
-
 .btn {
   margin-top: 0.5rem;
   padding: 0.7em 1.8em;
@@ -77,6 +60,7 @@ h2 {
   z-index: 1;
   font-family: inherit;
   color: var(--btn-color);
+  cursor: pointer;
 }
 
 .btn::before {
